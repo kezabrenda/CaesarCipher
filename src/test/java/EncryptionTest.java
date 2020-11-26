@@ -1,6 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class EncryptionTest {
+    //msg is short for message
     @Test
     public void firstEncode() throws Exception {
         Encryption testEncodedMsg = new Encryption ("hello", 1);
