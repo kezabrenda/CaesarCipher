@@ -36,6 +36,13 @@ public class DecryptionTest {
         assertEquals ( expectedMsg,cipheredMsg); // this test checks if the encrypted message is the same as the one entered
     }
     @Test
+    public void testIfLowerCaseLettersWork() {
+        int key = 24;
+        String letter = "l";
+        String expectedLetter = "n";
+        assertEquals(expectedLetter, Decryption.decryptedMsg(letter, key )); // this test checks if lowerCase messages can be encrypted too
+    }
+    @Test
     public void testIfUpperCaseLettersWork() {
         int key = 10;
         String letter = "N";
