@@ -27,4 +27,10 @@ public class DecryptionTest {
         String actualMsg = Encryption.encryptedMsg(msg, key);
         assertEquals(expectedMsg, actualMsg);// this test checks if the message entered and output are meaningful
     }
+    @Test
+    public void ogMessage(){
+        String cipheredMsg = "hello";
+        String expectedMsg = "hello";
+        assertEquals ( expectedMsg,cipheredMsg);// this test checks if the decrypted message is the same as the one entered
+    }
 }
