@@ -16,10 +16,7 @@ User can:
 ### CODE SCREENSHOTS
 
 * APP.JAVA
-![appCaesar](x-special/nautilus-clipboard
-copy
-file:///home/keza/Pictures/AppCeaser.png
-)
+![appCaesar](x-special/nautilus-clipboardcopyfile:///home/keza/Pictures/AppCeaser.png)
 
 ### Contact information
 For any further explaination, questions or suggestions, feel free to contact me keza1brenda@gmail.com
