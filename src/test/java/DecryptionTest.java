@@ -21,4 +21,12 @@ public class DecryptionTest {
         Decryption DecodeMsg = new Decryption ("hello",1);
         assertEquals ("hello",DecodeMsg.getMsg());// this test checks the functionality of the getMsg method
     }
+    @Test
+    public void testMsg() {
+        int key = 1;
+        String msg = "xpsme";
+        String expectedMsg = "world";
+        String actualMsg = Decryption.decryptedMsg(msg, key);
+        assertEquals(expectedMsg, actualMsg); // this test checks if the message entered and output are meaningful
+    }
 }
