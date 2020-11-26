@@ -40,4 +40,11 @@ public class DecryptionTest {
         String expectedLetter = "F";
         assertEquals(expectedLetter, Encryption.encryptedMsg(letter, key )); // this test checks if upperCase messages can be decrypted too
     }
+    @Test
+    public void testIfLowerCaseLettersWork() {
+        int key = 5;
+        String letter = "m";
+        String expectedLetter = "r";
+        assertEquals(expectedLetter, Encryption.encryptedMsg(letter, key ));// this test checks if lowerCase messages can be decrypted too
+    }
 }
