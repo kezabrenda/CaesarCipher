@@ -14,4 +14,9 @@ public class DecryptionTest {
         Encryption EncodedMsg = new Encryption ("hello", 1);
         assertEquals (1, EncodedMsg.getKey ());// this test checks the functionality of the getKey method
     }
+    @Test
+    public void getMsg() throws Exception{
+        Encryption EncodedMsg = new Encryption ("hello",1);
+        assertEquals ("hello",EncodedMsg.getMsg());// this test checks the functionality of the getMsg method
+    }
 }
