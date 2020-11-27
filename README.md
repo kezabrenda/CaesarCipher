@@ -15,8 +15,20 @@ User can:
 
 ### CODE SCREENSHOTS
 
-* APP.JAVA
-![appCaesar](x-special/nautilus-clipboardcopyfile:///home/keza/Pictures/AppCeaser.png)
+* Encryption Test
+![EncryptionTest.java](https://github.com/kezabrenda/CaesarCipher/blob/master/images/EncryptionTest.png)
+
+* Encryption Class
+![Encryption.java](https://github.com/kezabrenda/CaesarCipher/blob/master/images/EncryptionClass.png)
+
+* APP class
+![App.java](https://github.com/kezabrenda/CaesarCipher/blob/master/images/AppCeaser.png)
+
+* Decryption Test
+![DecryptionTest.java](https://github.com/kezabrenda/CaesarCipher/blob/master/images/DecryptionTest.png)
+
+* Decryption Class
+![Decryption.java](https://github.com/kezabrenda/CaesarCipher/blob/master/images/Decryption.png)
 
 ### Contact information
 For any further explaination, questions or suggestions, feel free to contact me keza1brenda@gmail.com
