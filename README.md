@@ -15,6 +15,9 @@ User can:
 
 ### CODE SCREENSHOTS
 
+* App Output
+![App.java](https://github.com/kezabrenda/CaesarCipher/blob/master/images/CaesarCipherOutput.png)
+
 * Encryption Test
 ![EncryptionTest.java](https://github.com/kezabrenda/CaesarCipher/blob/master/images/EncryptionTest.png)
 
